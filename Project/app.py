@@ -12,7 +12,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
     
 # @st.cache_resource
 # def load_cap_model():
-#     return load_model("best_model.h5")
+# return load_model("best_model.h5")
 
 lstm_model = load_model("best_model.h5")
 print(type(lstm_model))
